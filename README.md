@@ -5,7 +5,7 @@ Creating detailed graphical reports of pytest using allure
 Installation and Usage
 -
 
-	Create a project in pycharm
+	Create a project in pycharm, install the below mentioned packages
 	python3 - 3.6.9
 	allure  - 2.6.0 
 	pytest - 4.0.2           1     -> pip3 install pytest==4.0.2
