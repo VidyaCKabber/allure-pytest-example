@@ -5,12 +5,22 @@ Creating detailed graphical reports of pytest using allure
 Installation and Usage
 -
 
-python3 - 3.6.9
+	python3 - 3.6.9
+	allure  - 2.6.0 
+	pytest - 4.0.2           1     -> pip3 install pytest==4.0.2
+	pytest-allure-adaptor-1.7.10   -> pip3 install pytest-allure-adaptor
+	attrs-19.1.0                   -> pip3 install attrs==19.1.0
 
-allure  - 2.6.0 
+To generate the report : -
 
-pytest - 4.0.2           1     -> pip3 install pytest==4.0.2
+* Create Report folder under project tree
+* Run below commond in project directory (Note : not in Reports directory)
 
-pytest-allure-adaptor-1.7.10   -> pip3 install pytest-allure-adaptor
+		pytest --alluredir /home/Username/ProjectName/Reports
+		
+To see the generated report : -
 
-attrs-19.1.0                   -> pip3 install attrs==19.1.0
+		cd <Report Directory path> Ex : cd Reports
+
+		allure serve /home/Username/ProjectName/Reports
+
