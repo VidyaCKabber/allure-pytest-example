@@ -1,0 +1,130 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1582870453549" stop="1582870453564">
+  <name>test_cases_2</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1582870453549" status="passed" stop="1582870453550">
+      <name>test_g</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453550" status="failed" stop="1582870453552">
+      <name>test_h</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>def test_h():
+&gt;       assert False
+E       assert False
+
+test_cases_2.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453553" status="canceled" stop="1582870453554">
+      <name>test_i</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453555" status="failed" stop="1582870453557">
+      <name>test_j</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>def test_j():
+&gt;       assert False
+E       assert False
+
+test_cases_2.py:18: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453559" status="passed" stop="1582870453559">
+      <name>test_k</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453560" status="passed" stop="1582870453560">
+      <name>test_l</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453561" status="failed" stop="1582870453562">
+      <name>test_with_normal_severity_2</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>def test_with_normal_severity_2():
+&gt;       assert False
+E       assert False
+
+test_cases_2.py:34: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1582870453563" status="passed" stop="1582870453564">
+      <name>test_with_trivial_severity_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="24261-MainThread"/>
+        <label name="host" value="vidya-H110M-S2"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
