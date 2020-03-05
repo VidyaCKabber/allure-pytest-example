@@ -14,7 +14,7 @@ Installation and Usage
 
 To generate the report : -
 
-* Create Report folder under project tree
+* Create Report folder under project
 * Run below commond in project directory (Note : not in Reports directory)
 
 		pytest --alluredir /home/Username/ProjectName/Reports
